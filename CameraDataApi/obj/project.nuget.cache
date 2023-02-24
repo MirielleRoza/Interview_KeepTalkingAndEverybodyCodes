@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "iBOVrmJYidPAl1YQbWQ7rV3Y7/68Iu2p+oF4chRhkGkJdk+YMONdaMue+oQXQzzYWzQf/n9DBwsGKMIAbxo3iA==",
+  "success": true,
+  "projectFilePath": "N:\\Git\\Interview_KeepTalkingAndEverybodyCodes\\CameraDataApi\\CameraDataApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mirie\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\mirie\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\mirie\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\mirie\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\mirie\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\mirie\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

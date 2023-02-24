@@ -1,6 +1,6 @@
 ﻿namespace DataAccess.Models;
 
-public class FileDataLineModel
+public class CameraDataEntry
 {
     public string CameraName { get; set; } = "";
 

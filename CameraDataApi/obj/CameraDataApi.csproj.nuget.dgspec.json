@@ -1,0 +1,131 @@
+{
+  "format": 1,
+  "restore": {
+    "N:\\Git\\Interview_KeepTalkingAndEverybodyCodes\\CameraDataApi\\CameraDataApi.csproj": {}
+  },
+  "projects": {
+    "N:\\Git\\Interview_KeepTalkingAndEverybodyCodes\\CameraDataApi\\CameraDataApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "N:\\Git\\Interview_KeepTalkingAndEverybodyCodes\\CameraDataApi\\CameraDataApi.csproj",
+        "projectName": "CameraDataApi",
+        "projectPath": "N:\\Git\\Interview_KeepTalkingAndEverybodyCodes\\CameraDataApi\\CameraDataApi.csproj",
+        "packagesPath": "C:\\Users\\mirie\\.nuget\\packages\\",
+        "outputPath": "N:\\Git\\Interview_KeepTalkingAndEverybodyCodes\\CameraDataApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mirie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "N:\\Git\\Interview_KeepTalkingAndEverybodyCodes\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "N:\\Git\\Interview_KeepTalkingAndEverybodyCodes\\DataAccess\\DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "N:\\Git\\Interview_KeepTalkingAndEverybodyCodes\\DataAccess\\DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "N:\\Git\\Interview_KeepTalkingAndEverybodyCodes\\DataAccess\\DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "N:\\Git\\Interview_KeepTalkingAndEverybodyCodes\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\mirie\\.nuget\\packages\\",
+        "outputPath": "N:\\Git\\Interview_KeepTalkingAndEverybodyCodes\\DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mirie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

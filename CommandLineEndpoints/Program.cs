@@ -9,7 +9,7 @@ internal class Program
         return await Parser.Default.ParseArguments<CommandLineModel>(args).MapResult(async (CommandLineModel options) =>
         {
             Console.WriteLine("Starting search through CSV with argument: ");
-            var fdRepo = new FileDataRepository();
+            var fdRepo = new CameraRepository();
 
             var result = await fdRepo.GetEntriesByContainingText(options.Search);
 

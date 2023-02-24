@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{EF3F8E28-D4E7-4EFE-A8EF-8D4175A4B11A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{42AE1A3A-8739-4CB8-934C-F02DCB61DCED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{42AE1A3A-8739-4CB8-934C-F02DCB61DCED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandLineEndpoints", "CommandLineEndpoints\CommandLineEndpoints.csproj", "{04D34370-3BBC-455A-BAC7-A890D72B9F61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandLineEndpoints", "CommandLineEndpoints\CommandLineEndpoints.csproj", "{04D34370-3BBC-455A-BAC7-A890D72B9F61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraDataApi", "CameraDataApi\CameraDataApi.csproj", "{077ED591-3798-4DAB-B205-F616642EAAB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EF3F8E28-D4E7-4EFE-A8EF-8D4175A4B11A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF3F8E28-D4E7-4EFE-A8EF-8D4175A4B11A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF3F8E28-D4E7-4EFE-A8EF-8D4175A4B11A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF3F8E28-D4E7-4EFE-A8EF-8D4175A4B11A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{42AE1A3A-8739-4CB8-934C-F02DCB61DCED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{42AE1A3A-8739-4CB8-934C-F02DCB61DCED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42AE1A3A-8739-4CB8-934C-F02DCB61DCED}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{04D34370-3BBC-455A-BAC7-A890D72B9F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04D34370-3BBC-455A-BAC7-A890D72B9F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04D34370-3BBC-455A-BAC7-A890D72B9F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{077ED591-3798-4DAB-B205-F616642EAAB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077ED591-3798-4DAB-B205-F616642EAAB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077ED591-3798-4DAB-B205-F616642EAAB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077ED591-3798-4DAB-B205-F616642EAAB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
