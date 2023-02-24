@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CommandLineEndpoints": {
+      "commandName": "Project",
+      "commandLineArgs": "--search neude"
+    }
+  }
+}
