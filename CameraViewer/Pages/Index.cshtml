@@ -30,7 +30,8 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach (var entry in Model.divByThree){
+                                @foreach (var entry in Model.divByThree)
+                                {
                                     <tr>
                                         <td>@entry.CameraNumber</td>
                                         <td>@entry.CameraName</td>
@@ -124,3 +125,30 @@
         </table>
     </main>
 </body>
+
+<script>
+    var map = L.map('mapid').setView([52.0914, 5.1115], 14)
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+    //Generally, I would not recommend doing this
+    //however, time was ticking and I hadn't worked with asp.net in recent memory so I had to take some shortcuts.
+    @foreach(var entry in Model.divByThree){
+        @Html.Raw($"L.marker([{entry.Latitude}, {entry.Longitutude}]).addTo(map);" + System.Environment.NewLine);
+    }
+    
+    @foreach(var entry in Model.divByFive){
+        @Html.Raw($"L.marker([{entry.Latitude}, {entry.Longitutude}]).addTo(map);" + System.Environment.NewLine);
+    }
+
+    @foreach(var entry in Model.divByBoth){
+        @Html.Raw($"L.marker([{entry.Latitude}, {entry.Longitutude}]).addTo(map);" + System.Environment.NewLine);
+    }
+
+    @foreach (var entry in Model.divByNone)
+    {
+        @Html.Raw($"L.marker([{entry.Latitude}, {entry.Longitutude}]).addTo(map);" + System.Environment.NewLine);
+    }
+</script>
